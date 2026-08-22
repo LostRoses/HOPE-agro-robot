@@ -1,14 +1,14 @@
 # HOPE-agro-robot
 
-O HOPE-agro-robot é um protótipo de robô agrícola autônomo desenvolvido com **Arduino** e **ESP32-CAM**.  
+O **HOPE-agro-robot** é um protótipo de robô agrícola autônomo desenvolvido com **Arduino** e **ESP32-CAM**.  
 Ele foi criado para demonstrar como soluções acessíveis podem apoiar a agricultura com navegação inteligente e transmissão de imagens em tempo real.
 
 ## O que ele faz
-- Se locomove de forma autônoma
-- Detecta obstáculos com sensor ultrassônico (HC-SR04)
-- Ajusta a velocidade conforme a distância para evitar colisões
-- Transmite imagens e vídeo via Wi-Fi usando ESP32-CAM
-- Pode ser controlado manualmente por controle remoto IR
+- Se locomove de forma autônoma  
+- Detecta obstáculos com sensor ultrassônico (HC-SR04)  
+- Ajusta a velocidade conforme a distância para evitar colisões  
+- Transmite imagens e vídeo via Wi-Fi usando ESP32-CAM  
+- Pode ser controlado manualmente por controle remoto IR  
 
 ## Componentes principais
 - Arduino Uno  
@@ -18,7 +18,7 @@ Ele foi criado para demonstrar como soluções acessíveis podem apoiar a agricu
 - Estrutura acrílica com rodas e bateria  
 
 ## Código
-O código principal está em [`src/carrinho.ino`](src/carrinho.ino).  
+O código principal está em [`docs/implementation.md`](docs/implementation.md).  
 Ele inclui:
 - Funções de movimentação (frente, trás, esquerda, direita)  
 - Lógica de desvio de obstáculos  
@@ -26,8 +26,8 @@ Ele inclui:
 - Controle manual via IR  
 
 ## Testes
-- Vídeo curto mostrando o carrinho desviando de obstáculos: [`docs/video`](docs/video)  
-- Fotos da montagem: [`docs/fotos`](docs/fotos)  
+- Vídeo curto mostrando o carrinho desviando de obstáculos: [`docs/teste.mp4`](docs/teste.mp4)  
+- Fotos da montagem: [`docs/components.jpg`](docs/components.jpg)  
 
 ## Resultados
 - O carrinho conseguiu evitar colisões em diferentes cenários  
@@ -40,4 +40,4 @@ Ele inclui:
 - Melhorar autonomia energética com painel solar  
 
 ## Documentação completa
-Mais detalhes estão disponíveis no meu Notion: [link para o Notion](https://seu-link-do-notion)
+Mais detalhes estão disponíveis nos arquivos da pasta [`docs`](docs/).  
