@@ -1,0 +1,18 @@
+# Arquivos compilados
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# Configurações locais
+.env
+
+# Arquivos temporários
+*.tmp
+*.swp
+
+# Pastas de IDE
+.vscode/
+.idea/
